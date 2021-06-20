@@ -2,7 +2,7 @@
     "lectureName": "Линейный поиск",
     "lectureURL": "https://youtu.be/SKwB41FrGgU",
     "exercisesURL": "https://contest.yandex.ru/contest/27472/problems/",
-    "solvedStatus": "8/10",
+    "solvedStatus": "9/10",
     "2A": {
         "name": "Возрастает ли список?",
         "status": "solved"
@@ -41,6 +41,6 @@
     },
     "2J": {
         "name": "Треугольник Максима",
-        "status": "not solved"
+        "status": "solved"
     }
 }
