@@ -1,0 +1,46 @@
+{
+    "lectureName": "Линейный поиск",
+    "lectureURL": "https://youtu.be/SKwB41FrGgU",
+    "exercisesURL": "https://contest.yandex.ru/contest/27472/problems/",
+    "solvedStatus": "7/10",
+    "1A": {
+        "name": "Возрастает ли список?",
+        "status": "solved"
+    },
+    "1B": {
+        "name": "Определить вид последовательности",
+        "status": "solved"
+    },
+    "1C": {
+        "name": "Ближайшее число",
+        "status": "solved"
+    },
+    "1D": {
+        "name": "Больше своих соседей",
+        "status": "solved"
+    },
+    "1E": {
+        "name": "Чемпионат по метанию коровьих лепешек",
+        "status": "solved"
+    },
+    "1F": {
+        "name": "Симметричная последовательность",
+        "status": "solved"
+    },
+    "1G": {
+        "name": "Наибольшее произведение двух чисел",
+        "status": "solved"
+    },
+    "1H": {
+        "name": "Наибольшее произведение трех чисел",
+        "status": "not solved"
+    },
+    "1I": {
+        "name": "Сапер",
+        "status": "not solved"
+    },
+    "1J": {
+        "name": "Треугольник Максима",
+        "status": "not solved"
+    }
+}
