@@ -1,22 +1,22 @@
 const fs = require('fs');
 
 const solution = (data) => {
-    const seq = data.map(Number).sort((a, b) => {
-        if (a > b) {
-            return 1;
-        }
+    const seq = data.map(Number);
 
-        if (a < b) {
-            return -1;
-        }
+    let min1 = min2 = Infinity;
+    let max1 = max2 = -Infinity;
 
-        return 0;
-    });
-    const { length: len } = seq;
-    const p1 = seq[len - 1] * seq[len - 2];
-    const p2 = seq[0] * seq[1];
+    for (let i = 0; i < seq.length; i += 1) {
+        const cur = seq[i];
 
-    return p1 >= p2 ? `${seq[len - 2]} ${seq[len - 1]}` : `${seq[0]} ${seq[1]}`;
+        if (cur >= max1) { max2 = max1; max1 = cur; }
+        else if (cur >= max2) { max2 = cur; }
+
+        if (cur <= min1) { min2 = min1; min1 = cur; }
+        else if (cur <= min2) { min2 = cur; }
+    }
+
+    return max1 * max2 >= min1 * min2 ? `${max2} ${max1}` : `${min1} ${min2}`;
 };
 
 const input = fs.readFileSync('input.txt', 'utf-8');
