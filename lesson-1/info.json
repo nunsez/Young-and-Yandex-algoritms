@@ -1,6 +1,8 @@
 {
+    "lectureName": "Сложность, тестирование, особые случаи",
     "lectureURL": "https://youtu.be/QLhqYNsPIVo",
     "exercisesURL": "https://contest.yandex.ru/contest/27393/problems/",
+    "solvedStatus": "7/10",
     "1A": {
         "name": "Кондиционер",
         "status": "solved"
