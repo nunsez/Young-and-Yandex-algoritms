@@ -1,0 +1,44 @@
+{
+    "lectureURL": "https://youtu.be/QLhqYNsPIVo",
+    "exercisesURL": "https://contest.yandex.ru/contest/27393/problems/",
+    "1A": {
+        "name": "Кондиционер",
+        "status": "solved"
+    },
+    "1B": {
+        "name": "Треугольник",
+        "status": "solved"
+    },
+    "1C": {
+        "name": "Телефонные номера",
+        "status": "solved"
+    },
+    "1D": {
+        "name": "Уравнение с корнем",
+        "status": "solved"
+    },
+    "1E": {
+        "name": "Скорая помощь",
+        "status": "not solved"
+    },
+    "1F": {
+        "name": "Расстановка ноутбуков",
+        "status": "solved"
+    },
+    "1G": {
+        "name": "Детали",
+        "status": "solved"
+    },
+    "1H": {
+        "name": "Метро",
+        "status": "not solved"
+    },
+    "1I": {
+        "name": "Узник замка Иф",
+        "status": "solved"
+    },
+    "1J": {
+        "name": "Система линейных уравнений",
+        "status": "not solved"
+    }
+}
