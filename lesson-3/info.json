@@ -1,0 +1,46 @@
+{
+    "lectureName": "Множества",
+    "lectureURL": "https://youtu.be/PUpmV2ieIHA",
+    "exercisesURL": "https://contest.yandex.ru/contest/27663/problems/",
+    "solvedStatus": "5/10",
+    "3A": {
+        "name": "Количество различных чисел",
+        "status": "solved"
+    },
+    "3B": {
+        "name": "Пересечение множеств",
+        "status": "solved"
+    },
+    "3C": {
+        "name": "Кубики",
+        "status": "solved"
+    },
+    "3D": {
+        "name": "Количество слов в тексте",
+        "status": "solved"
+    },
+    "3E": {
+        "name": "OpenCalculator",
+        "status": "solved"
+    },
+    "3F": {
+        "name": "Инопланетный геном",
+        "status": "not solved"
+    },
+    "3G": {
+        "name": "НЧерепахи",
+        "status": "not solved"
+    },
+    "3H": {
+        "name": "Злые свинки",
+        "status": "not solved"
+    },
+    "3I": {
+        "name": "Полиглоты",
+        "status": "not solved"
+    },
+    "3J": {
+        "name": "Пробежки по Манхэттену",
+        "status": "not solved"
+    }
+}
