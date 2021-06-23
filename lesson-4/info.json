@@ -1,0 +1,46 @@
+{
+    "lectureName": "Словари и сортировка подсчётом",
+    "lectureURL": "https://youtu.be/Nb5mW1yWVSs",
+    "exercisesURL": "https://contest.yandex.ru/contest/27665/problems/",
+    "solvedStatus": "1/10",
+    "4A": {
+        "name": "Словарь синонимов",
+        "status": "solved"
+    },
+    "4B": {
+        "name": "Номер появления слова",
+        "status": "not solved"
+    },
+    "4C": {
+        "name": "Самое частое слово",
+        "status": "not solved"
+    },
+    "4D": {
+        "name": "Клавиатура",
+        "status": "not solved"
+    },
+    "4E": {
+        "name": "Пирамида",
+        "status": "not solved"
+    },
+    "4F": {
+        "name": "Продажи",
+        "status": "not solved"
+    },
+    "4G": {
+        "name": "Банковские счета",
+        "status": "not solved"
+    },
+    "4H": {
+        "name": "Расшифровка письменности Майя",
+        "status": "not solved"
+    },
+    "4I": {
+        "name": "Контрольная по ударениям",
+        "status": "not solved"
+    },
+    "4J": {
+        "name": "Дополнительная проверка на списывание",
+        "status": "not solved"
+    }
+}
