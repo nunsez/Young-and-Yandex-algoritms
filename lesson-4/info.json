@@ -2,14 +2,14 @@
     "lectureName": "Словари и сортировка подсчётом",
     "lectureURL": "https://youtu.be/Nb5mW1yWVSs",
     "exercisesURL": "https://contest.yandex.ru/contest/27665/problems/",
-    "solvedStatus": "1/10",
+    "solvedStatus": "2/10",
     "4A": {
         "name": "Словарь синонимов",
         "status": "solved"
     },
     "4B": {
         "name": "Номер появления слова",
-        "status": "not solved"
+        "status": "solved"
     },
     "4C": {
         "name": "Самое частое слово",
