@@ -1,37 +1,45 @@
-const rl = require('readline').createInterface(process.stdin);
+const fs = require('fs');
 
-const clients = {};
+const solution = (coll) => {
+    const data = coll.reduce((acc, el) => {
+        const [user, item, count] = el.split(' ');
 
-rl.on('line', (line) => {
-    const [client, thing, value] = line.split(' ');
-
-    if (!clients[client]) {
-        clients[client] = {};
-    }
-
-    if (!clients[client][thing]) {
-        clients[client][thing] = 0;
-    }
-
-    clients[client][thing] += Number(value);
-});
-
-rl.on('close', () => {
-    const sortedClients = Object.keys(clients).sort();
-    const clientsLength = sortedClients.length;
-
-    for (let i = 0; i < clientsLength; i += 1) {
-        const client = sortedClients[i];
-        const sortedThing = Object.keys(clients[client]).sort();
-        const thingsLength = sortedThing.length;
-
-        console.log(`${client}:`);
-
-        for (let j = 0; j < thingsLength; j += 1) {
-            const thing = sortedThing[j];
-            const count = clients[client][thing];
-
-            console.log(`${thing} ${count}`);
+        if (!acc[user]) {
+            acc[user] = {};
         }
+
+        if (!acc[user][item]) {
+            acc[user][item] = 0;
+        }
+
+        acc[user][item] += Number(count);
+
+        return acc;
+    }, {});
+
+    const userList = Object.keys(data).sort();
+
+    for (let i = 0; i < userList.length; i += 1) {
+        const user = userList[i];
+        const itemList = Object.keys(data[user]).sort();
+        const result = [];
+
+        result.push( `${user}:`);
+
+        for (let j = 0; j < itemList.length; j += 1) {
+            const item = itemList[j];
+            const count = data[user][item];
+
+            result.push(`${item} ${count}`);
+        }
+
+        process.stdout.write(`${result.join('\n')}\n`);
     }
-});
+};
+
+const input = fs.readFileSync('input.txt', 'utf-8');
+const data = input.split(/\r?\n/);
+
+data.pop();
+
+solution(data);
