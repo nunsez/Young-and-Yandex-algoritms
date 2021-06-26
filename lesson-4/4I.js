@@ -1,7 +1,5 @@
 const fs = require('fs');
 
-const noAccent = (word) => word === word.toLowerCase();
-
 const getAccents = (word) => {
     let accents = 0;
 
