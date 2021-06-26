@@ -2,7 +2,7 @@
     "lectureName": "Словари и сортировка подсчётом",
     "lectureURL": "https://youtu.be/Nb5mW1yWVSs",
     "exercisesURL": "https://contest.yandex.ru/contest/27665/problems/",
-    "solvedStatus": "5/10",
+    "solvedStatus": "9/10",
     "4A": {
         "name": "Словарь синонимов",
         "status": "solved"
@@ -41,6 +41,6 @@
     },
     "4J": {
         "name": "Дополнительная проверка на списывание",
-        "status": "not solved"
+        "status": "solved"
     }
 }
