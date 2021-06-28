@@ -2,10 +2,10 @@
     "lectureName": "Префиксные суммы и два указателя",
     "lectureURL": "https://youtu.be/de28y8Dcvkg",
     "exercisesURL": "https://contest.yandex.ru/contest/27794/problems/",
-    "solvedStatus": "0/10",
+    "solvedStatus": "1/10",
     "5A": {
         "name": "Стильная одежда",
-        "status": "not solved"
+        "status": "solved"
     },
     "5B": {
         "name": "Сумма номеров",
