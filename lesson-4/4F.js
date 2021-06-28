@@ -1,45 +1,43 @@
-const fs = require('fs');
+const rl = require('readline').createInterface(process.stdin);
 
-const solution = (coll) => {
-    const data = coll.reduce((acc, el) => {
-        const [user, item, count] = el.split(' ');
+const data = {};
+const result = [];
 
-        if (!acc[user]) {
-            acc[user] = {};
-        }
+rl.on('line', (line) => {
+    const [user, item, count] = line.split(/\s/);
 
-        if (!acc[user][item]) {
-            acc[user][item] = 0;
-        }
+    if (!data[user]) {
+        data[user] = {};
+    }
 
-        acc[user][item] += Number(count);
+    const prevCount = data[user][item] ?? 0;
 
-        return acc;
-    }, {});
+    data[user][item] = prevCount + Number(count);
+});
 
+rl.on('close', () => {
     const userList = Object.keys(data).sort();
 
     for (let i = 0; i < userList.length; i += 1) {
         const user = userList[i];
         const itemList = Object.keys(data[user]).sort();
-        const result = [];
 
-        result.push( `${user}:`);
+        result.push(user.concat(':'));
 
         for (let j = 0; j < itemList.length; j += 1) {
             const item = itemList[j];
-            const count = data[user][item];
 
-            result.push(`${item} ${count}`);
+            result.push(`${item} ${data[user][item]}`);
         }
 
-        process.stdout.write(`${result.join('\n')}\n`);
+        // memory and speed optimization, still can't pass last test :(
+        delete data[user];
+
+        if (result.length > 88) {
+            process.stdout.write(result.join('\n').concat('\n'));
+            result.splice(0);
+        }
     }
-};
 
-const input = fs.readFileSync('input.txt', 'utf-8');
-const data = input.split(/\r?\n/);
-
-data.pop();
-
-solution(data);
+    process.stdout.write(result.join('\n').concat('\n'));
+});
