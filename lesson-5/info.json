@@ -1,0 +1,46 @@
+{
+    "lectureName": "Префиксные суммы и два указателя",
+    "lectureURL": "https://youtu.be/de28y8Dcvkg",
+    "exercisesURL": "https://contest.yandex.ru/contest/27794/problems/",
+    "solvedStatus": "0/10",
+    "5A": {
+        "name": "Стильная одежда",
+        "status": "not solved"
+    },
+    "5B": {
+        "name": "Сумма номеров",
+        "status": "not solved"
+    },
+    "5C": {
+        "name": "Туризм",
+        "status": "not solved"
+    },
+    "5D": {
+        "name": "Город Че",
+        "status": "not solved"
+    },
+    "5E": {
+        "name": "Красота превыше всего",
+        "status": "not solved"
+    },
+    "5F": {
+        "name": "Кондиционеры",
+        "status": "not solved"
+    },
+    "5G": {
+        "name": "Счет в гипершашках",
+        "status": "not solved"
+    },
+    "5H": {
+        "name": "Подстрока",
+        "status": "not solved"
+    },
+    "5I": {
+        "name": "Робот",
+        "status": "not solved"
+    },
+    "5J": {
+        "name": "Треугольники",
+        "status": "not solved"
+    }
+}
