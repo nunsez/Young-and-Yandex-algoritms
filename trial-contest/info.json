@@ -1,7 +1,7 @@
 {
     "name": "Подготовка к собеседованию Яндекс",
     "exercisesURL": "https://contest.yandex.ru/contest/8458/problems/",
-    "solvedStatus": "5/6",
+    "solvedStatus": "6/6",
     "A": {
         "name": "Камни и украшения",
         "status": "solved"
@@ -24,6 +24,6 @@
     },
     "G": {
         "name": "Интересное путешествие",
-        "status": "not solved"
+        "status": "solved"
     }
 }
