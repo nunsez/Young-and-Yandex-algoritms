@@ -1,0 +1,29 @@
+{
+    "name": "Подготовка к собеседованию Яндекс",
+    "exercisesURL": "https://contest.yandex.ru/contest/8458/problems/",
+    "solvedStatus": "5/6",
+    "A": {
+        "name": "Камни и украшения",
+        "status": "solved"
+    },
+    "B": {
+        "name": "Последовательно идущие единицы",
+        "status": "solved"
+    },
+    "C": {
+        "name": "Удаление дубликатов",
+        "status": "solved"
+    },
+    "D": {
+        "name": "Генерация скобочных последовательностей",
+        "status": "solved"
+    },
+    "E": {
+        "name": "Анаграммы",
+        "status": "solved"
+    },
+    "G": {
+        "name": "Интересное путешествие",
+        "status": "not solved"
+    }
+}
