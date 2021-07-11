@@ -2,7 +2,7 @@
     "lectureName": "Префиксные суммы и два указателя",
     "lectureURL": "https://youtu.be/de28y8Dcvkg",
     "exercisesURL": "https://contest.yandex.ru/contest/27794/problems/",
-    "solvedStatus": "1/10",
+    "solvedStatus": "3/10",
     "5A": {
         "name": "Стильная одежда",
         "status": "solved"
@@ -17,7 +17,7 @@
     },
     "5D": {
         "name": "Город Че",
-        "status": "not solved"
+        "status": "solved"
     },
     "5E": {
         "name": "Красота превыше всего",
